@@ -2,5 +2,6 @@
 
 source "https://rubygems.org"
 
-gem 'sinatra'
+gem 'sinatra', '3.0.6'
+
 

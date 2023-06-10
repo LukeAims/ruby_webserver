@@ -18,7 +18,7 @@ PLATFORMS
   x86_64-darwin-21
 
 DEPENDENCIES
-  sinatra
+  sinatra (= 3.0.6)
 
 BUNDLED WITH
    2.4.13
