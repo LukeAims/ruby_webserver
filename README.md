@@ -6,33 +6,25 @@
 
 #### Ruby
 
-I utilized the Ruby programming language to build the core logic and functionality of the blog application.
-Ruby is a dynamic, object-oriented language known for its simplicity and readability.
+I utilized the Ruby programming language to build the core logic and functionality of the blog application. Ruby is a dynamic, object-oriented language known for its simplicity and readability.
 
 #### Sinatra
 
-I employed the Sinatra web framework, to handle the web server functionality and routing in the application. Sinatra 
-simplifies the process of building web applications by providing a DSL (Domain-Specific Language) for defining routes
-and handling HTTP requests. HTML and ERB: I used HTML (Hypertext Markup Language) for structuring the web pages and
-ERB (Embedded Ruby) as the template engine for embedding Ruby code within the HTML templates. ERB allows dynamic 
-generation of HTML content based on the data and logic in my Ruby application.
+I employed the Sinatra web framework, to handle the web server functionality and routing in the application. Sinatra simplifies the process of building web applications by providing a DSL (Domain-Specific Language) for defining routes and handling HTTP requests. HTML and ERB: I used HTML (Hypertext Markup Language) for structuring the web pages and ERB (Embedded Ruby) as the template engine for embedding Ruby code within the HTML templates. ERB allows dynamic generation of HTML content based on the data and logic in my Ruby application.
 
 ### Project Steps
 
 #### Setting up the Project
 
-I created the project structure, including the main Ruby file (app.rb) and the views directory to store the HTML
-templates.
+I created the project structure, including the main Ruby file (app.rb) and the views directory to store the HTML templates.
 
 #### Defining Routes
 
-I defined routes for the home page, creating a new post, and displaying individual posts. These routes map to specific
-URL paths and define the corresponding actions to be executed.
+I defined routes for the home page, creating a new post, and displaying individual posts. These routes map to specific URL paths and define the corresponding actions to be executed.
 
 #### Sample Data
 
-I included sample data for blog posts within the app.rb file to simulate a database or external data source. This data
-is used to populate the blog posts in the application.
+I included sample data for blog posts within the app.rb file to simulate a database or external data source. This data is used to populate the blog posts in the application.
 
 #### Rendering Templates
 
