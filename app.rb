@@ -18,3 +18,9 @@ post '/create' do
   # Code to handle creating a new post
   redirect '/'
 end
+
+get '/post/:id' do
+  id = params['id'].to_i
+  post = posts[id]
+  erb :post, locals: { id: id, post: post }
+end
